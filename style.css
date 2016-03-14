@@ -1,0 +1,68 @@
+body{background: url(images/background.png); margin: 0; padding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif; color: #272727;}
+	a{text-decoration: none;}
+
+/*Структура сайта*/
+
+header{height: 100px;  background-color: white; color: black; background-image: url('images/headerbackground.png');}
+div.mid{width: 1000px; margin:0 auto;}
+div.footer{margin: 20px 0; text-align: center; text-transform: uppercase;}
+
+/*Шапка сайта*/
+header img  {max-height: 100px;}
+div.topmenu{float: right; height: 100px; line-height: 100px;}
+div.topmenu a{margin: 0 0 0 10px; color: #DBDBDB ;}
+div.topmenu a:hover{color: #fff;}
+	
+/*Меню*/
+div.menu{background: #273063; border: 1px solid #016c8b; border-left: none; border-right: none;}
+div.menu ul{margin:0; padding: 0; list-style: none; text-align: center;}
+div.menu ul li {display: inline-block; margin: 5px 50px;}
+div.menu ul li a{color: #fff; text-transform: uppercase;}
+div.menu ul li a:hover{color: #a3e1f3;}
+
+/*Кнопка ВВЕРХ*/
+div.pageup{position: fixed; top:150px; background: #273063; border: 1px solid #016c8b; border-left: none; border-right: 1px solid #016c8b; width: 120px;}
+div.pageup ul li a{color: #fff; text-transform: uppercase;}
+div.pageup ul li a:hover{color: #a3e1f3;}
+
+
+/*Контент сайта*/
+div.fon {background: #fff; border: 1px solid #ccc; border-top:none; padding: 40px;}
+/*Услуги*/
+div.block {width: 440px; float: left; margin-bottom: 40px;}
+div.block:nth-of-type(even) {float: right;} /*нечётные картинки выравниваются по левому краю окна, а чётные картинки по правому*/
+div.block a p{color: #272727;}
+
+div.anons {background: #f5f5f5; border: 1px solid #ccc; border-radius:3px; padding: 40px; transition: all 1s;}
+div.anons:hover{background: #e0eff4; border: 1px solid #bfd5dd; transition: all 1s;}
+div.anons img {box-shadow: 1px 1px 5px #777; width: 100%; height: auto; -webkit-filter: none; -moz-filter: none; -ms-filter: none;
+  -o-filter: none; filter: none; filter: none; transition: all 1s;}
+div.anons img:hover {box-shadow: 1px 1px 5px #777; width: 100%; height: auto; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%); -o-filter: grayscale(100%);  filter: grayscale(100%); filter: gray; transition: all 1s;}
+div.anons h3{font-size: 20px; font-weight: normal; margin: 20px 0 10px; color: #01617d; padding: 0; line-height: 20px;}
+div.anons p{text-shadow:1px 1px 0 #fff;}
+
+/*Комментарии пользователей*/
+div.comments {width: 835px; float: left; margin-bottom: 40px;}
+div.comments h3{font-size: 20px; font-weight: normal; margin: 20px 0px 20px; color: #01617d; padding: 0; line-height: 20px;}
+div.comments {background: #f5f5f5; border: 1px solid #ccc; border-radius:3px; padding: 10px 40px; transition: all 1s; }
+div.comments:hover{background: #e0eff4; border: 1px solid #bfd5dd; transition: all 1s;}
+
+div.customer{min-height: 60px;}
+div.customer img {box-shadow: 1px 1px 5px #777; max-width: 60px;}
+div.customer h4{font-size: 15px; font-weight: normal; margin: 0px 0 10px; color: #01617d; padding: 0; line-height: 20px; margin-top: -65px; margin-left: 70px;}
+div.customer p{color: #272727;margin-left: 70px; margin-top: -5px; font: normal 14px Tahoma; text-shadow:1px 1px 0 #fff;}
+
+/*Контакты*/
+div.contacts {width: 835px; float: left; margin-bottom: 40px;}
+div.contacts h3{font-size: 20px; font-weight: normal; margin: 20px 0px 20px; color: #01617d; padding: 0; line-height: 20px;}
+div.contacts {background: #f5f5f5; border: 1px solid #ccc; border-radius:3px; padding: 10px 40px; transition: all 1s; }
+div.contacts:hover{background: #e0eff4; border: 1px solid #bfd5dd; transition: all 1s;}
+
+div.contact {width: 200px; float: left; margin-bottom: 40px;}
+div.contact img{box-shadow: 1px 1px 5px #777; max-width: 60px;}
+div.contact p{color: #272727;margin-left: 70px; margin-top: -40px; font: normal 14px Tahoma; text-shadow:1px 1px 0 #fff;}
+
+
+div.clear{clear: both;}
